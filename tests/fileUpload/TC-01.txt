@@ -1,0 +1,13 @@
+TC-01 : openfile(<1mb , txt), กด upload => Thank you for your message. It has been sent.
+TC-02 : docx
+TC-03 : pdf
+TC-04 : jpeg
+TC-05 : png
+TC-06 : jpg
+TC-07 : gif
+TC-08 : ว่าง , กด upload => Please fill out this field. 
+	-- One or more fields have an error. Please check and try again.
+TC-09 : openfile(>1mb), Uploaded file is too big.
+TC-09 : openfile(=! txt, docx, pdf, jpeg, png, jpg, gif), 
+	กด upload => You are not allowed to upload files of this type. 
+	-- One or more fields have an error. Please check and try again.
